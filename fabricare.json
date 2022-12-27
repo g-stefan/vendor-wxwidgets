@@ -2,7 +2,7 @@
 	"project": {
 		"name" : "wxwidgets",
 		"type" : "xyo-cpp",
-		"SPDX-License-Identifier": "LicenseRef-",
+		"SPDX-License-Identifier": "LGPL-2.0-or-later with WxWindows-exception-3.1",
 		"sourceLink" : "https://github.com/wxWidgets/wxWidgets",
 		"version" : "3.1.6"
 	}
