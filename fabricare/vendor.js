@@ -26,7 +26,7 @@ Shell.removeFile("archive/" + Project.vendor + ".7z");
 
 // Source
 runInPath("archive", function() {
-	webLink = "https://github.com/wxWidgets/wxWidgets/releases/download/v3.1.6/wxWidgets-3.1.6.zip";
+	webLink = "https://github.com/wxWidgets/wxWidgets/releases/download/v"+Project.version+"/wxWidgets-"+Project.version+".zip";
 	if (!Shell.fileExists(Project.vendor + ".zip")) {
 		exitIf(Shell.system("curl --insecure --location " + webLink + " --output " + Project.vendor + ".zip"));
 	};
