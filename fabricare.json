@@ -1,13 +1,17 @@
 {
-	"project": {
-		"name" : "wxwidgets",
+	"solution": {
+		"name" : "vendor-wxwidgets",
 		"type" : "xyo-cpp",
-		"SPDX-License-Identifier": "LGPL-2.0-or-later with WxWindows-exception-3.1",
-		"sourceLink" : "https://github.com/wxWidgets/wxWidgets",
-		"version" : "3.2.1",
-		"hasRelease" : true,
-		"noVersion" : true,
-		"githubRelease" : true,
-		"githubRepository" : "vendor-wxwidgets"
+		"projects": [
+			{
+				"name" : "wxwidgets",
+				"SPDX-License-Identifier": "LGPL-2.0-or-later with WxWindows-exception-3.1",
+				"sourceLink" : "https://github.com/wxWidgets/wxWidgets",
+				"version" : "3.2.1",
+				"noVersion" : true
+			}
+		],
+		"releaseName" : "wxwidgets",
+		"hasGithub" : true
 	}
 }
