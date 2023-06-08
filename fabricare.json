@@ -11,7 +11,6 @@
 				"noVersion" : true
 			}
 		],
-		"releaseName" : "wxwidgets",
-		"hasGithub" : true
+		"releaseName" : "wxwidgets"
 	}
 }
