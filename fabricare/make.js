@@ -34,7 +34,7 @@ if (!Shell.fileExists("temp/build.config.flag")) {
 	cmdConfig+=" -DCMAKE_BUILD_TYPE=Release";
 	cmdConfig+=" -DCMAKE_INSTALL_PREFIX="+Shell.realPath(Shell.getcwd())+"\\output";
 	cmdConfig+=" -DwxBUILD_SHARED=OFF";
-	cmdConfig+=" -DwxBUILD_COMPATIBILITY=\"3.1\"";
+	cmdConfig+=" -DwxBUILD_COMPATIBILITY=\"3.2\"";
 	cmdConfig+=" -DwxBUILD_MONOLITHIC=ON";
 
 	runInPath("temp/cmake",function(){
