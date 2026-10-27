@@ -1,6 +1,5 @@
 {
 	"solution": {
-		"namespace" : "xyo",
 		"name" : "vendor-wxwidgets",
 		"type" : "xyo-cpp",
 		"projects": [
